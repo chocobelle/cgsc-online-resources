@@ -27,3 +27,26 @@
         @apply text-rose transition-colors duration-300 ease-linear;
     }
 }
+
+header {
+    @apply bg-lightGold text-mainText w-full h-80 flex flex-col justify-center items-center gap-8 border-b-4 border-oliveGreen relative overflow-hidden;
+
+    img {
+
+        &.left {
+            @apply w-72 absolute top-2 left-24;
+        }
+        &.right {
+            @apply w-72 absolute -bottom-10 right-24 opacity-25;
+        }
+    }
+
+    h2 {
+        // font-variant: small-caps;
+        @apply text-center font-fraunces text-5xl text-rose
+    }
+
+    p {
+        @apply w-1/3 text-center text-[#333333];
+    }
+}
