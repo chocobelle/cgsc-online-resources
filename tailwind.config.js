@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         cream: '#EAE9E4',
         mainText: '#5B5B59',
+        oliveGreen: '#80885F',
       },
       fontFamily: {
         fraunces: ['var(--font-fraunces)', 'serif'],

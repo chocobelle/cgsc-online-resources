@@ -2,10 +2,11 @@
     @apply relative inline-block;
 
     .dropdown-content {
-        @apply hidden absolute z-10
+        @apply hidden absolute z-10 p-2 w-48 bg-white shadow-lg rounded-md;
     }
 
     &:hover .dropdown-content {
-        @apply block
+        @apply block;
     }
 }
+
