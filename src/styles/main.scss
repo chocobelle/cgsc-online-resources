@@ -1,0 +1,11 @@
+.dropdown-container {
+    @apply relative inline-block;
+
+    .dropdown-content {
+        @apply hidden absolute z-10
+    }
+
+    &:hover .dropdown-content {
+        @apply block
+    }
+}

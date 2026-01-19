@@ -9,7 +9,12 @@ module.exports = {
     './src/styles/**/*.{scss,css}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'fraunces': ['var(--font-fraunces)', 'serif'],
+        'zalando': ['var(--font-zalando-sans-semi-expanded)', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
