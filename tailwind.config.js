@@ -10,9 +10,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        cream: '#EAE9E4',
+        mainText: '#5B5B59',
+      },
       fontFamily: {
-        'fraunces': ['var(--font-fraunces)', 'serif'],
-        'zalando': ['var(--font-zalando-sans-semi-expanded)', 'sans-serif'],
+        fraunces: ['var(--font-fraunces)', 'serif'],
+        zalando: ['var(--font-zalando-sans-semi-expanded)', 'sans-serif'],
       },
     },
   },
