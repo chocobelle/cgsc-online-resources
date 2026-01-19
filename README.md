@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Christ the Good Shepherd Church – Online Resources
+> (cgsc-online-resources.com)
 
-## Getting Started
+This repository contains the source code for cgsc-online-resources.com, an unofficial, volunteer-run website created to support remote viewers of Christ the Good Shepherd Church who follow services online.
 
-First, run the development server:
+The project exists to make online participation easier and more accessible, particularly for those unable to attend in person due to distance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Purpose
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website aims to provide:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- A written guide to the order of the Divine Liturgy for online viewers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Written transcripts of sermon
 
-## Learn More
+- Supplementary resources related to livestreamed services
 
-To learn more about Next.js, take a look at the following resources:
+All content is intended to be supportive, non-commercial, and respectful of the church’s ministry.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Affiliation Disclaimer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is **not** officially affiliated with, endorsed by, or operated by [Christ the Good Shepherd Church](https://cgsc.org.au/).
+All official services, announcements, and livestreams remain on the [church’s official platforms](https://cgsc.org.au/).
 
-## Deploy on Vercel
+Links to [official church resources](https://cgsc.org.au/) are provided wherever relevant.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Content and Permissions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Any published content derived from church livestreams (including sermons or choir recordings) is shared only with permission or guidance from the church. Content may be modified, restricted, or removed at any time upon request.
+
+The site prioritises obedience, transparency, and respect over permanence.
+
+## Open Source Notice
+
+The codebase may be made open source in the future.
+
+The content (text, audio, names, and liturgical material) is not open for reuse unless explicitly stated.
+
+All rights remain with their respective owners.
+
+## Technology
+
+This is a static website intended to be simple, lightweight, and low-maintenance.
+
+The current tech stack used to make this site:
+
+- TypeScript React
+- Tailwind
+- Sass (Scss)
+- Next.js
+
+No advertising, tracking, or monetisation is included.
+
+## Contact
+
+This project is maintained by Isabelle, a remote follower  and software engineer based in the United Kingdom.
+
+For questions, concerns, or requests regarding content, please open an issue or contact the maintainer directly.
